@@ -66,7 +66,7 @@ render_with_errors(Template, Vars) ->
             throw(nifty_render_error)
     catch
         ET:E ->
-            io:format("~p:~p during rendering of temlate ~p:~nVars: ~n~p~nPlease report the error~n", [ET, E, Template, Vars]),
+            io:format("~p:~p during rendering of template ~p:~nVars: ~n~p~nPlease report the error~n", [ET, E, Template, Vars]),
             throw(nifty_render_error)
     end.
 
