@@ -1,0 +1,19 @@
+{application, nifty,
+ [
+  {description, "Nifty - Erlang NIF Wrapper Generator"},
+  {vsn, "0.1"},
+  {modules, [
+             nifty
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  erlydtl,
+                  merl,
+                  proper,
+                  rebar,
+                  erl_interface
+                 ]},
+  {env, []}
+ ]}.
