@@ -10,7 +10,7 @@
                   kernel,
                   stdlib,
                   erlydtl,
-                  merl,
+                  %% merl,  % erlang 18.3 ships with this app
                   proper,
                   rebar,
                   erl_interface
